@@ -49,7 +49,7 @@
               echo "If the length is " . $length . " and the width is " . $width . " and the height is " . $height . ". ";
               echo "<br />";
               echo "<br />";
-              echo "Then the Volume is: " . $volume . " mm³";
+              echo "Then the Volume is: " . round($volume, 2) . " mm³";
               echo "<br />";
 
               ?>
